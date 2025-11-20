@@ -30,3 +30,15 @@ export const INITIAL_LINKS = [
   { source: 'root', target: 'c7' },
   { source: 'c3', target: 'c7' },
 ];
+
+export const NODE_PLACEHOLDER = {message: `Start typing your notes here... 
+
+You can write anything you want:
+• Ideas and thoughts
+• Study notes
+• Meeting minutes
+• Research findings
+
+This is your personal knowledge space.`,
+editMessage: "Click 'Start Writing' to begin editing..."
+}
