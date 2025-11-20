@@ -2,11 +2,11 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { analyzeConcept, generateQuiz, evaluateMetaCognition } from './services/geminiService';
 import { INITIAL_NODES, INITIAL_LINKS } from './utils/constants';
 import { Node, Link, GraphData, ScreenState, AnalysisResult, QuizData, MetaResult, FolderStructure } from './utils/types';
-import { HomeScreen } from './src/screens/HomeScreen';
-import { InputScreen } from './src/screens/InputScreen';
-import { GraphScreen } from './src/screens/GraphScreen';
-import { MetaCheckScreen } from './src/screens/MetaCheckScreen';
-import { QuizScreen } from './src/screens/QuizScreen';
+import { HomeScreen } from './screens/HomeScreen';
+import { InputScreen } from './screens/InputScreen';
+import { GraphScreen } from './screens/GraphScreen';
+import { MetaCheckScreen } from './screens/MetaCheckScreen';
+import { QuizScreen } from './screens/QuizScreen';
 
 export default function App() {
   const [screen, setScreen] = useState<ScreenState>('onboarding');
